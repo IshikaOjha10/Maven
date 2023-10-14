@@ -1,0 +1,18 @@
+package com.selenium;
+
+import org.testing.assert;
+import com.msc.App;
+public class AppTest {
+@Test
+public void testlogin() {
+	App myapp=new app();
+	Assert.assertEquals(0,myapp.User_Login("abc", "Abc123"));
+}
+
+@Test
+public void testlogin1() {
+	App myapp=new app();
+	Assert.assertEquals(0,myapp.User_Login("abc", "Abc123"));
+}
+}
+

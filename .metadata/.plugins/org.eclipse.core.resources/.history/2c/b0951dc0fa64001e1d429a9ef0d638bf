@@ -1,0 +1,19 @@
+package com.selenium;
+
+//import org.testing.*;
+import org.junit.Assert;
+import abc.App;
+public class AppTest {
+@Test
+public void testlogin() {
+	App myapp=new App();
+	Assert.assertEquals(0,myapp.User_Login("abc", "Abc@123"));
+}
+
+@Test
+public void testlogin1() {
+	App myapp=new App();
+	Assert.assertEquals(0,myapp.User_Login("abc", "Abc@123"));
+}
+}
+
